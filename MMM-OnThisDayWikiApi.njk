@@ -25,8 +25,8 @@
             <ul class="MMM-OnThisDayWikiApi-list" style="max-width:{{config.maxWidth}}px;">
                 {% for item in items %}
                     <li>
-                        <span class="title bright xsmall light">{{ item.year }} – </span>
-                        <span class="text xsmall light{{ ' no-wrap' if not config.wrapTitle }}">
+                        <span class="title bright small light">{{ item.year }} – </span>
+                        <span class="text small light{{ ' no-wrap' if not config.wrapTitle }}">
                             {{ escapeText(item.text) }}
                         </span>
                     </li>
